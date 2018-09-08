@@ -1,0 +1,6 @@
+<%= form_for @patient do |f| %>
+	<p>Name : <%= f.text_field :name %></p>
+	<p>DOB : <%= f.date_field :dob %></p>
+	<p>Gender : <%= f.text_field :gender %></p>
+	<p><%= f.submit %></p>
+<% end %>
